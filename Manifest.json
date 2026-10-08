@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Page Reading Time Estimator",
+  "version": "1.0",
+  "description": "Calculates the total estimated reading time of the active web page.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
